@@ -2,17 +2,17 @@
 
 webhook to trigger crypto trading orders from tradingview and other supported platforms
 
-# Installation
+## Installation
 
 ```
 git clone git@github.com:algobots-net/crypto-webhook-bot.git
 ```
 
-# Setup
+## Setup
 
 - Change api key, api secret, api password, api environment and password in src/keys.py file
 
-# Testing in local environment
+## Testing in local environment
 
 ```python
 cd crypto-webhook-bot
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 80
 ```
 
-# Testing in docker environment
+## Testing in docker environment
 
 ```docker
 docker build -t crypto-webhook-bot .
