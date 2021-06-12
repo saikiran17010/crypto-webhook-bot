@@ -52,7 +52,7 @@ docker run -it -d --name  crypto-webhook-bot -p 80:80 crypto-webhook-bot
 
 ### Sample for trading with stop loss
 
-````json
+```json
 {
   "price": 30000,
   "size": 0.1,
@@ -63,5 +63,5 @@ docker run -it -d --name  crypto-webhook-bot -p 80:80 crypto-webhook-bot
   "stop": "loss",
   "stop_price": 31000,
   "close_opposite_orders": true
-}```
-````
+}
+```
